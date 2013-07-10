@@ -15,6 +15,10 @@ template "/etc/ssh/sshd_config" do
 )
 end
 
+template "/etc/pam.d/sshd" do
+    source "pam-sshd.erb"
+end
+
 service "ssh" do
     action [ :restart ]
 end
