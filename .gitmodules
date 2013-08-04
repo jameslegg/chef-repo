@@ -1,3 +1,6 @@
 [submodule "cookbooks/netatalk"]
 	path = cookbooks/netatalk
 	url = git://github.com/jtimberman/netatalk.git
+[submodule "cookbooks/sabnzb"]
+	path = cookbooks/sabnzb
+	url = https://github.com/agh-cookbooks/sabnzbd
