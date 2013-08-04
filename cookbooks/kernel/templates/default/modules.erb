@@ -1,0 +1,6 @@
+# /etc/modules kernel modules
+#
+# Managed by Chef
+<%- @modules.each do |mod| %>
+<%= mod %>
+<%- end -%>
