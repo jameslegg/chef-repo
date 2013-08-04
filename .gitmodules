@@ -1,0 +1,3 @@
+[submodule "cookbooks/netatalk"]
+	path = cookbooks/netatalk
+	url = git://github.com/jtimberman/netatalk.git
