@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "home": {
+      "path": "./cookbooks/home"
+    },
+    "kernel": {
+      "path": "./cookbooks/kernel"
+    },
+    "sshd": {
+      "path": "./cookbooks/sshd"
+    },
+    "google-authenticator": {
+      "path": "./cookbooks/google-authenticator"
+    },
+    "homeserver": {
+      "path": "./site-cookbooks/homeserver"
+    },
+    "netatalk": {
+      "locked_version": "1.1.0"
+    },
+    "sabnzbd": {
+      "locked_version": "1.0.0"
+    },
+    "samba": {
+      "locked_version": "0.11.4"
+    }
+  }
+}
