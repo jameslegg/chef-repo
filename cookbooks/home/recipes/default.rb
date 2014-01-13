@@ -18,3 +18,17 @@ service 'avahi-daemon' do
   supports :restart => true
   action [:enable, :start]
 end
+
+directory "/data2/smb" do
+  owner "root"
+  group "root"
+  mode  "0644"
+end
+
+directory "/data2/smb/backups" do
+  owner "root"
+  group "root"
+  mode  "0644"
+end
+
+include_recipe "samba::server"
